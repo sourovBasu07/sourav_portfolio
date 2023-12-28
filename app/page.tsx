@@ -1,19 +1,31 @@
-import About from "@/components/About";
-import Header from "@/components/Header";
-import Home from "@/components/Home";
-import Services from "@/components/Services";
-import Skills from "@/components/Skills";
+import About from "@/components/about/About";
+import Contact from "@/components/contact/Contact";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
+import Home from "@/components/home/Home";
+import Portfolio from "@/components/portfolio/Portfolio";
+import Qualifications from "@/components/qualifications/Qualifications";
+import ScrollUp from "@/components/scroll/ScrollUp";
+import Services from "@/components/services/Services";
+import Skills from "@/components/skills/Skills";
+import Testimonials from "@/components/testimonials/Testimonials";
 
 const Page = () => {
   return (
     <div className="">
       <Header />
-      <div className="main">
+      <main className="main">
         <Home />
         <About />
         <Skills />
         <Services />
-      </div>
+        {/* <Qualifications /> */}
+        <Portfolio />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
+      <ScrollUp />
     </div>
   );
 };

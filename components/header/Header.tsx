@@ -15,7 +15,7 @@ const Header = () => {
               <Link
                 key={navLink.name}
                 href={navLink.route}
-                scroll={false}
+                // scroll={false}
                 className="text-titleColor text-small-font font-medium hover:text-titleColorDark duration-300"
               >
                 {navLink.name}

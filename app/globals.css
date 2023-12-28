@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --titleColor: hsl(0, 0%, 20%);
+    --textColor: hsl(0, 0%, 46%);
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -118,4 +121,12 @@
   .button--flex {
     @apply inline-flex items-center;
   }
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--textColor) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--titleColor) !important;
 }

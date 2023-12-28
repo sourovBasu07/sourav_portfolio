@@ -4,13 +4,13 @@ import Info from "./Info";
 
 const About = () => {
   return (
-    <div className="about section" id="section">
+    <div className="about section" id="about">
       <span className="section__subtitle">My Introduction</span>
       <h2 className="section__title">About Me</h2>
 
       <div className="container grid__section grid-cols-[repeat(2,1fr)] items-center gap-x-16">
         <Image
-          src="/assets/about.jpg"
+          src="/assets/sourov_basu.jpg"
           alt="About"
           width={0}
           height={0}
@@ -31,7 +31,7 @@ const About = () => {
             applications that meet and exceed client expectations.
           </p>
           <a
-            href="/assets/John-CV.pdf"
+            href="/assets/sourov_basu.pdf"
             download=""
             className="button button--flex"
           >
