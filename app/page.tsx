@@ -6,9 +6,9 @@ import Home from "@/components/home/Home";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Qualifications from "@/components/qualifications/Qualifications";
 import ScrollUp from "@/components/scroll/ScrollUp";
-import Services from "@/components/services/Services";
+import Certifications from "@/components/certifications/Certifications";
 import Skills from "@/components/skills/Skills";
-import Testimonials from "@/components/testimonials/Testimonials";
+// import Testimonials from "@/components/testimonials/Testimonials";
 
 const Page = () => {
   return (
@@ -18,10 +18,10 @@ const Page = () => {
         <Home />
         <About />
         <Skills />
-        <Services />
-        {/* <Qualifications /> */}
         <Portfolio />
-        <Testimonials />
+        <Certifications />
+        {/* <Qualifications /> */}
+        {/* <Testimonials /> */}
         <Contact />
       </main>
       <Footer />

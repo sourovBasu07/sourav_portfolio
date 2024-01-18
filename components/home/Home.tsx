@@ -12,7 +12,7 @@ const Home = () => {
 
           <div className="relative w-[300px] h-[300px] order-1 justify-self-center">
             <Image
-              src="/assets/sourov_basu.jpg"
+              src={"/assets/sourov_basu.jpg"}
               alt="profile"
               fill
               className="object-cover animate-profile_animate shadow-[inset_0_0_0_9px_rgba(255,255,255,0.3)]"

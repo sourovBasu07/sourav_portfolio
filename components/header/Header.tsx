@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="w-full h-16 fixed inset-0 z-10 bg-containerColor">
       <nav className="container h-16 flex justify-between items-center gap-4">
-        <Link href="#" className="text-titleColor font-medium">
+        <Link href="#" className="text-titleColor font-bold text-2xl">
           Sourov
         </Link>
 

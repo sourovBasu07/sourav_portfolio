@@ -22,7 +22,7 @@ const About = () => {
           <Info />
           <p className="mb-6 pr-16">
             I am a highly skilled and versatile Full Stack Next.js Developer
-            with a passion for creating exceptional web applications. With [X]
+            with a passion for creating exceptional web applications. With 2+
             years of experience in the field, I have a strong background in both
             front-end and back-end development, making me proficient in all
             aspects of the web development process. My expertise in Next.js,
@@ -31,7 +31,7 @@ const About = () => {
             applications that meet and exceed client expectations.
           </p>
           <a
-            href="/assets/sourov_basu.pdf"
+            href="/assets/sourov_basu_resume.pdf"
             download=""
             className="button button--flex"
           >

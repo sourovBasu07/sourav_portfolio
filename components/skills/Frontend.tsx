@@ -9,8 +9,11 @@ const Frontend = () => {
       </div>
       <div className="w-full">
         <div className="w-full flex flex-wrap justify-center items-center gap-y-4 gap-x-6">
-          {frontendSkills.map((skill) => (
-            <div className="flex items-center gap-2 border border-solid border-[rgba(0,0,0,0.1)] px-6 py-3 rounded-full text-titleColor cursor-pointer">
+          {frontendSkills.map((skill, index) => (
+            <div
+              key={index}
+              className="flex items-center gap-2 border border-solid border-[rgba(0,0,0,0.1)] px-6 py-3 rounded-full text-titleColor cursor-pointer"
+            >
               <HiOutlineCheckBadge size="1rem" />
               <h3 className="font-medium text-normal-font leading-4 ">
                 {skill}
