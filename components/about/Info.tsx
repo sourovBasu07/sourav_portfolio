@@ -2,7 +2,7 @@ import { aboutData } from "@/constants";
 
 const Info = () => {
   return (
-    <div className="grid__section grid-cols-[repeat(3,140px)] gap-2 mb-8">
+    <div className="hidden sm:grid__section grid-cols-[repeat(3,140px)] gap-2 mb-8">
       {aboutData.map((about) => (
         <div
           key={about.title}

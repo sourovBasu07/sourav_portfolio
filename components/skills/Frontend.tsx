@@ -3,7 +3,7 @@ import { HiOutlineCheckBadge } from "react-icons/hi2";
 
 const Frontend = () => {
   return (
-    <div className="px-16 py-8 rounded-[1.25rem]">
+    <div className="px-0 md:px-16 py-8 rounded-[1.25rem]">
       <div className="font-medium text-normal-font text-center mb-6">
         Frontend Tech Stacks
       </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Social = () => {
   return (
-    <div className="grid auto-cols-max gap-y-4">
+    <div className="flex gap-x-4 md:grid auto-cols-max gap-y-4">
       {socialLinks.map((socialLink) => (
         <Link
           href={socialLink.link}

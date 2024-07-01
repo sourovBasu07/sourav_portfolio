@@ -1,10 +1,18 @@
+"use client"
+
 import Link from "next/link";
 import { BsArrowDown } from "react-icons/bs";
 
 const ScrollDown = () => {
+  const scrollDown = () => {
+          window.scrollTo({
+            top: 700,
+            behavious: "smooth",
+          })
+  }
   return (
-    <div className="ml-40">
-      <Link href="/#about" className="home__scroll-button button--flex">
+    <div className="hidden md:block ml-40" onClick={scrollDown}>
+      <div className="home__scroll-button button--flex">
         <svg
           width="32px"
           height="32px"
@@ -36,7 +44,7 @@ const ScrollDown = () => {
           Scroll Down
         </span>
         <BsArrowDown size="1.255rem" color="hsl(0, 0%, 20%)" />
-      </Link>
+      </div>
     </div>
   );
 };

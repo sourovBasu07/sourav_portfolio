@@ -28,14 +28,14 @@ const Contact = () => {
     },
   });
 
-  const onSubmit = async (values: z.infer<typeof formValidation>) => {};
+  const onSubmit = async (values: z.infer<typeof formValidation>) => { };
 
   return (
     <div className="contact section" id="contact">
       <span className="section__subtitle">Contact Me</span>
       <h2 className="section__title">Get in touch</h2>
 
-      <div className="container grid__section grid-cols-[repeat(2,max-content)] justify-center gap-x-24 pb-12">
+      <div className="container grid__section grid-cols-1 md:grid-cols-[repeat(2,max-content)] justify-center gap-x-24 pb-12">
         <div className="contact__content">
           <h3 className="text-center text-h3-font font-medium mb-6">
             Talk to me

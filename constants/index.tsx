@@ -23,6 +23,7 @@ export const navLinks = [
   { name: "Home", route: "/#home" },
   { name: "About", route: "/#about" },
   { name: "Skills", route: "/#skills" },
+  { name: "Experiences", route: "/#experiences" },
   { name: "Projects", route: "/#projects" },
   { name: "Certifications", route: "/#certifications" },
   { name: "Contact", route: "/#contact" },
@@ -47,8 +48,8 @@ export const socialLinks = [
 ];
 
 export const aboutData = [
-  { title: "Experience", subtitle: "2 Years Working", icon: <BsAward /> },
-  { title: "Completed", subtitle: "15+ Projects", icon: <BsBriefcase /> },
+  { title: "Experience", subtitle: "6 months working", icon: <BsAward /> },
+  { title: "Completed", subtitle: "2+ Projects", icon: <BsBriefcase /> },
   { title: "Support", subtitle: "Online 24/7", icon: <BsHeadphones /> },
 ];
 
@@ -56,8 +57,6 @@ export const frontendSkills = [
   "Next.js",
   "React",
   "Redux Toolkit",
-  "JavaScript",
-  "TypeScript",
   "Tailwind CSS",
   "GraphQL",
   "Framer Motion",
@@ -321,7 +320,7 @@ export const testimonialsData = [
 export const contactData = [
   {
     title: "Email",
-    id: "souravbasu123456@gmail.com",
+    id: "sourovbasu07@gmail.com",
     icon: <AiOutlineMail />,
     link: "",
   },

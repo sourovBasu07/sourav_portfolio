@@ -5,10 +5,10 @@ const Data = () => {
     <div className="home__data">
       <h1 className="text-big-font mb-1">Sourov Basu</h1>
       <h3 className="relative text-h3-font font-normal mb-4 pl-24 before:content-[''] before:absolute before:w-20 before:h-px before:bg-textColor before:left-0 before:top-4">
-        Full Stack Next.js Developer
+        MERN Stack Develoer
       </h3>
       <p className="mb-12 max-w-[400px]">
-        I am a highly skilled and versatile Full Stack Next.js Developer with a
+        I am a highly skilled and versatile MERN Stack & Full Stack Next.js Developer with a
         passion for creating exceptional web applications
       </p>
       <Link href="/#contact" className="button button--flex">

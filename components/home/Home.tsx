@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className="home section" id="home">
       <div className="container gap-y-28 grid__section">
-        <div className="grid__section grid-cols-[116px_repeat(2,1fr)] pt-24 items-center gap-x-8">
+        <div className="grid__section grid-cols-1 md:grid-cols-[116px_repeat(2,1fr)] pt-5 md:pt-24 items-center gap-x-8">
           <Social />
 
           <div className="relative w-[300px] h-[300px] order-1 justify-self-center">
@@ -15,7 +15,7 @@ const Home = () => {
               src={"/assets/sourov_basu.jpg"}
               alt="profile"
               fill
-              className="object-cover animate-profile_animate shadow-[inset_0_0_0_9px_rgba(255,255,255,0.3)]"
+              className="object-cover animate-profile_animate shadow-[inset_0_0_0_9px_rgba(255,255,255,0.3)] grayscale"
             />
           </div>
 

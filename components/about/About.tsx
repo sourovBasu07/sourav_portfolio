@@ -8,20 +8,20 @@ const About = () => {
       <span className="section__subtitle">My Introduction</span>
       <h2 className="section__title">About Me</h2>
 
-      <div className="container grid__section grid-cols-[repeat(2,1fr)] items-center gap-x-16">
+      <div className="container grid__section grid-cols-1 md:grid-cols-[repeat(2,1fr)] items-center gap-x-16">
         <Image
           src="/assets/sourov_basu.jpg"
           alt="About"
           width={0}
           height={0}
           sizes="100vw"
-          className="w-[350px] h-auto justify-self-center rounded-3xl"
+          className="hidden md:block w-[350px] h-auto justify-self-center rounded-3xl grayscale"
         />
 
         <div className="about__data">
           <Info />
-          <p className="mb-6 pr-16">
-            I am a highly skilled and versatile Full Stack Next.js Developer
+          <p className="mb-6 pr-0 md:pr-16">
+            I am a highly skilled and versatile MERN Stack & Full Stack Next.js Developer
             with a passion for creating exceptional web applications. With 2+
             years of experience in the field, I have a strong background in both
             front-end and back-end development, making me proficient in all

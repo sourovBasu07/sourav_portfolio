@@ -8,6 +8,7 @@ import Qualifications from "@/components/qualifications/Qualifications";
 import ScrollUp from "@/components/scroll/ScrollUp";
 import Certifications from "@/components/certifications/Certifications";
 import Skills from "@/components/skills/Skills";
+import Experiences from "@/components/experiences/Experiences";
 // import Testimonials from "@/components/testimonials/Testimonials";
 
 const Page = () => {
@@ -18,6 +19,7 @@ const Page = () => {
         <Home />
         <About />
         <Skills />
+        <Experiences />
         <Portfolio />
         <Certifications />
         {/* <Qualifications /> */}

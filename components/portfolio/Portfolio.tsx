@@ -20,7 +20,7 @@ const Portfolio = () => {
       <span className="section__subtitle">My works</span>
       <h2 className="section__title">Recent Projects</h2>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-y-0 gap-10">
         {projectsData.map((project) => (
           <Card project={project} key={project.id} />
         ))}
