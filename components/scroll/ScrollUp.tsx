@@ -24,10 +24,10 @@ const ScrollUp = () => {
 
   const scrollUp = () => {
 
-          window.scrollTo({
-            top: 0,
-            behavious: "smooth",
-          })
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
   }
 
   return (

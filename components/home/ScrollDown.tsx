@@ -5,10 +5,10 @@ import { BsArrowDown } from "react-icons/bs";
 
 const ScrollDown = () => {
   const scrollDown = () => {
-          window.scrollTo({
-            top: 700,
-            behavious: "smooth",
-          })
+    window.scrollTo({
+      top: 700,
+      behavior: "smooth",
+    })
   }
   return (
     <div className="hidden md:block ml-40" onClick={scrollDown}>
